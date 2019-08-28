@@ -1,0 +1,52 @@
+{
+  "name": "project-td",
+  "version": "1.0.0",
+  "description": "Project to develop Team Dynamics",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "npm run test",
+    "lint:sass": "sass-lint -c .sass-lint.yml '**/*.scss' -v -q"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Our-Thing/Project-TD.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "AMP",
+    "Responsive"
+  ],
+  "author": "Pancham Khaitan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Our-Thing/Project-TD/issues"
+  },
+  "homepage": "https://github.com/Our-Thing/Project-TD#readme",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "sass-lint": "^1.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
